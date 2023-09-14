@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Veladoras Artesanales</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background-color: #e0e0e0;
+            padding: 10px;
+        }
+        nav {
+            background-color: #c0c0c0;
+            padding: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        select {
+            padding: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Venta de Veladoras Artesanales</h1>
+    </header>
+    <nav>
+        <select>
+            <option value="veladora1">Veladora 1</option>
+            <option value="veladora2">Veladora 2</option>
+            <option value="veladora3">Veladora 3</option>
+        </select>
+    </nav>
+    <div class="container">
+        <h2>Veladora 1</h2>
+        <img src="veladora1.jpg" alt="Veladora 1">
+        <p>Esta veladora artesanal está hecha a mano con cera de alta calidad y fragancias naturales. Perfecta para relajación y meditación.</p>
+    </div>
+
+    <div class="container">
+        <h2>Veladora 2</h2>
+        <img src="veladora2.jpg" alt="Veladora 2">
+        <p>La veladora 2 está decorada con diseños únicos y aromas exquisitos. Ideal para decorar tu hogar y crear un ambiente acogedor.</p>
+    </div>
+
+    <div class="container">
+        <h2>Veladora 3</h2>
+        <img src="veladora3.jpg" alt="Veladora 3">
+        <p>La veladora 3 es una opción elegante y sofisticada. Su aroma suave y duradero la convierte en la elección perfecta para cualquier ocasión especial.</p>
+    </div>
+
+    <footer>
+        <p>© 2023 Venta de Veladoras Artesanales</p>
+    </footer>
+</body>
+</html>
